@@ -1,0 +1,42 @@
+
+//C++ PROGRAM TO PRINT INT FLOAT CHAR DOUBLE
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
+}
+OUTPUT:
+Size of char: 1 byte
+Size of int: 4 bytes
+Size of float: 4 bytes
+Size of double: 8 bytes
+
+//C++ PROGRAM TO FIND PRODUCT OF TWO NUMBERS ENTERED BY USER
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    float a, b, product;
+    cout << "Enter two Numbers\n";
+    cin >> a >> b;
+    product = a*b;
+    cout << "Product = " << product;
+    return 0;
+}
+
+OUTPUT
+Enter two Numbers
+3.4
+5.5
+Product = 18.7
